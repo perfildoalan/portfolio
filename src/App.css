@@ -5,6 +5,7 @@ html, body {
   padding: 0;
   width: 100%;
   overscroll-behavior: none;
+  scrollbar-color: transparent transparent;
   
   cursor: url('../public/cursor-default.png'), auto;
 }
