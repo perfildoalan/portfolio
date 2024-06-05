@@ -4,6 +4,10 @@
   scrollbar-width: none;
   width: 75%;
 
+.projetos::-webkit-scrollbar {
+  display: none;
+}
+  
   .oculto {
     opacity: 0;
   }
