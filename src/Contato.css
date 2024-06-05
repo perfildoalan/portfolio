@@ -1,0 +1,76 @@
+.pagina.contato {
+  flex-direction: column;
+
+  div.email {
+    margin-top: 20px;
+
+    strong {
+      color: #ffab40;
+    }
+  }
+
+  form {
+    div {
+      display: flex;
+      align-items: baseline;
+      margin-bottom: 10px;
+
+      label {
+        padding-right: 10px;
+        text-align: right;
+        width: 80px;
+      }
+
+      input, textarea, button {
+        background: #595959;
+        border: 1px solid #a7a7a7;
+        border-radius: 5px;  
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1em;
+      }
+
+      input, textarea {
+        color: #ffffff;
+        padding-left: 10px;
+        width: 250px;
+      }
+
+      input, button {
+        height: 30px;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      &:last-of-type {
+        float: right;
+
+        button {
+          color: #cccccc;
+          padding: 5px 20px;
+        }
+      }
+      
+    }
+
+    
+  }
+
+  div.erro {
+    animation-name: exibicao;
+    animation-duration: 2s;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      color: #787878;
+      margin-top: 20px;
+      text-align: center;
+
+      span {
+        color: #b92d2d;
+      }
+    }
+  }
+}

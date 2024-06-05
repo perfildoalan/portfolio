@@ -1,0 +1,41 @@
+html, body {
+  font-family: "Ubuntu", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overscroll-behavior: none;
+  
+  cursor: url('../public/cursor-default.png'), auto;
+}
+
+html {
+  background: rgb(64,64,64);
+  background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(3,3,3,1) 100%);
+}
+
+a {
+  cursor: url('../public/cursor-pointer.png'), pointer;
+}
+
+form * {
+  cursor: url('../public/cursor-text.png'), text;
+}
+
+.pagina {
+  left: 50px;
+  position: fixed;
+  top: 50px;
+}
+
+.projetos {
+  position: fixed;
+  right: 50px;
+}
+
+.rodape {
+  bottom: 50px;
+  font-weight: 300;
+  left: 50px;
+  position: fixed;
+}

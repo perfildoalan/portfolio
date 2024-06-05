@@ -1,0 +1,72 @@
+@keyframes ponto {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes sombra {
+  0% { text-shadow: 0 0 20px #ffab40; }
+  10% { text-shadow: 0 0 20px #ffab40; }
+  20% { text-shadow: 0 0 5px #ffab40; }
+  30% { text-shadow: 0 0 10px #ffab40; }
+  40% { text-shadow: 0 0 15px #ffab40; }
+  45% { text-shadow: 0 0 0px #ffab40; }
+  50% { text-shadow: 0 0 5px #ffab40; }
+  70% { text-shadow: 0 0 15px #ffab40; }
+  90% { text-shadow: 0 0 20px #ffab40; }
+  100% { text-shadow: 0 0 0px #ffab40; }
+}
+
+footer {  
+  h1 {
+    color: #595959;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 0.5;
+    margin: 0;
+
+    &::after {
+      color: #ffab40;
+      content: '.';
+      font-size: 100px;
+      animation-name: ponto;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  #nome {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0 0 20px #ffab40;
+    text-transform: uppercase;
+
+    animation-name: sombra;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin-right: 20px;
+      
+      img {
+        filter: invert();
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+          filter: invert() brightness(0.6) sepia(1) hue-rotate(358deg) saturate(7);
+          transform: scale(1.1);
+          transition: transform 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+
+}

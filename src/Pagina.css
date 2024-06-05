@@ -1,0 +1,53 @@
+nav {
+  background: #ffffff;
+  border-radius: 20px;
+  color: #b9b9b9;
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 15px #ffab4088;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  
+  a {
+    color: #b9b9b9;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.2s ease-in-out;
+
+    &.ativa {
+      color: #000000;
+    }
+
+    &:hover {
+      color: #ffab40;
+      transition: color 0.2s ease-in-out;
+    }
+  }
+}
+
+@keyframes exibicao {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+div.pagina {
+  background: #2c2c2c;
+  border: 1px solid #8d8d8d;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #cccccc;
+  height: 350px;
+  left: 50px;
+  padding: 20px;
+  position: fixed;
+  top: 150px;
+  width: 450px;
+  animation-name: exibicao;
+  animation-duration: 1s;
+}
