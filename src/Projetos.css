@@ -3,6 +3,7 @@
   overflow-y: scroll;
   scrollbar-width: none;
   width: 75%;
+  scrollbar-color: transparent transparent;
 
 .projetos::-webkit-scrollbar {
   display: none;
