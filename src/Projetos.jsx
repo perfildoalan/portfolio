@@ -12,7 +12,6 @@ export default function Projetos() {
           </a>
         </li>
         <li>
-        <li>
           <a href="https://perfildoalan.github.io/gameboy/" target="_black">
             Gameboy
           </a>
