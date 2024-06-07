@@ -7,6 +7,12 @@ export default function Projetos() {
       <ul>
         <li className="oculto">preenchimento</li>
         <li>
+          <a href="https://perfildoalan.github.io/dashboardmodular/" target="_black">
+            Dashboard Modular
+          </a>
+        </li>
+        <li>
+        <li>
           <a href="https://perfildoalan.github.io/gameboy/" target="_black">
             Gameboy
           </a>
