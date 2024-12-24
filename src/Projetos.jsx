@@ -7,16 +7,6 @@ export default function Projetos() {
       <ul>
         <li className="oculto">preenchimento</li>
         <li>
-          <a href="https://perfildoalan.github.io/dashboardmodular/" target="_black">
-            Dashboard Modular
-          </a>
-        </li>
-        <li>
-          <a href="https://perfildoalan.github.io/gameboy/" target="_black">
-            Gameboy
-          </a>
-        </li>
-        <li>
           <a href="https://perfildoalan.github.io/imc/" target="_blank">
             Cálculo IMC
           </a>
@@ -24,6 +14,21 @@ export default function Projetos() {
         <li>
           <a href="https://perfildoalan.github.io/caraoucoroa/" target="_blank">
             Cara ou coroa
+          </a>
+        </li>
+        <li>
+          <a href="https://conect2ai.dca.ufrn.br" target="_blank">
+            Conect2Ai
+          </a>
+        </li>
+        <li>
+          <a href="https://perfildoalan.github.io/dashboardmodular/" target="_black">
+            Dashboard Modular
+          </a>
+        </li>
+        <li>
+          <a href="https://perfildoalan.github.io/gameboy/" target="_black">
+            Gameboy
           </a>
         </li>
         <li className="oculto">preenchimento</li>
